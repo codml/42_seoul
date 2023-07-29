@@ -6,11 +6,11 @@
 /*   By: taewanki <taewanki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 17:36:05 by taewanki          #+#    #+#             */
-/*   Updated: 2023/02/15 17:57:45 by taewanki         ###   ########.fr       */
+/*   Updated: 2023/02/22 19:52:03 by taewanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "libft/libft.h"
 #include "parsing.h"
 
 static void	ft_freenode(t_data *node)

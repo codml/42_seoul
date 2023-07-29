@@ -6,14 +6,14 @@
 /*   By: taewanki <taewanki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 03:00:27 by taewanki          #+#    #+#             */
-/*   Updated: 2023/02/19 21:56:49 by taewanki         ###   ########.fr       */
+/*   Updated: 2023/02/22 19:51:48 by taewanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
-#include "parsing/parsing.h"
-#include "sort/sort.h"
+#include "parsing.h"
+#include "sort.h"
 #include "libft/libft.h"
 
 static int	ft_is_else(t_table *table, char *str)

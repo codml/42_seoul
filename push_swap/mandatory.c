@@ -6,14 +6,14 @@
 /*   By: taewanki <taewanki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/06 16:48:38 by taewanki          #+#    #+#             */
-/*   Updated: 2023/02/20 21:45:00 by taewanki         ###   ########.fr       */
+/*   Updated: 2023/02/22 19:52:23 by taewanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
-#include "parsing/parsing.h"
-#include "sort/sort.h"
+#include "parsing.h"
+#include "sort.h"
 
 int	main(int argc, char *argv[])
 {

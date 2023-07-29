@@ -6,7 +6,7 @@
 /*   By: taewanki <taewanki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 17:28:04 by taewanki          #+#    #+#             */
-/*   Updated: 2023/02/20 21:48:31 by taewanki         ###   ########.fr       */
+/*   Updated: 2023/02/21 20:20:52 by taewanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 static void	sort_only_three(t_table *table)
 {
+	if (check_sort(table->a, 3))
+		return ;
 	if (table->a->arr[table->a->top]
 		> table->a->arr[(table->a->top - 1 + table->num) % table->num]
 		&& table->a->arr[table->a->top]
